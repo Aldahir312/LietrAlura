@@ -377,7 +377,7 @@ public class Principal {
                 System.out.println();
                 autores.forEach(a -> System.out.println(
                         "Autor: " + a.getNombre() +
-                                "\nFecha de fallecimiento: " + a.getNacimiento() +
+                                "\nFecha de nacimiento: " + a.getNacimiento() +
                                 "\nFecha de fallecimeinto: " + a.getFallecimiento() +
                                 "\nLibros: " + a.getLibros().stream().map(l -> l.getTitulo()).collect(Collectors.toList()) + "\n"
                 ));
